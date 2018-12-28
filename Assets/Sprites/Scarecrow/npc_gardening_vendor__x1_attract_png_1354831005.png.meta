@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 9aca32b49ed040b4ab0477401954f7ce
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npc_gardening_vendor__x1_attract_png_1354831005_0
+    21300002: npc_gardening_vendor__x1_attract_png_1354831005_1
+    21300004: npc_gardening_vendor__x1_attract_png_1354831005_2
+    21300006: npc_gardening_vendor__x1_attract_png_1354831005_3
+    21300008: npc_gardening_vendor__x1_attract_png_1354831005_4
+    21300010: npc_gardening_vendor__x1_attract_png_1354831005_5
+    21300012: npc_gardening_vendor__x1_attract_png_1354831005_6
+    21300014: npc_gardening_vendor__x1_attract_png_1354831005_7
+    21300016: npc_gardening_vendor__x1_attract_png_1354831005_8
+    21300018: npc_gardening_vendor__x1_attract_png_1354831005_9
+    21300020: npc_gardening_vendor__x1_attract_png_1354831005_10
+    21300022: npc_gardening_vendor__x1_attract_png_1354831005_11
+    21300024: npc_gardening_vendor__x1_attract_png_1354831005_12
+    21300026: npc_gardening_vendor__x1_attract_png_1354831005_13
+    21300028: npc_gardening_vendor__x1_attract_png_1354831005_14
+    21300030: npc_gardening_vendor__x1_attract_png_1354831005_15
+    21300032: npc_gardening_vendor__x1_attract_png_1354831005_16
+    21300034: npc_gardening_vendor__x1_attract_png_1354831005_17
+    21300036: npc_gardening_vendor__x1_attract_png_1354831005_18
+    21300038: npc_gardening_vendor__x1_attract_png_1354831005_19
+    21300040: npc_gardening_vendor__x1_attract_png_1354831005_20
+    21300042: npc_gardening_vendor__x1_attract_png_1354831005_21
+    21300044: npc_gardening_vendor__x1_attract_png_1354831005_22
+    21300046: npc_gardening_vendor__x1_attract_png_1354831005_23
+    21300048: npc_gardening_vendor__x1_attract_png_1354831005_24
+    21300050: npc_gardening_vendor__x1_attract_png_1354831005_25
+    21300052: npc_gardening_vendor__x1_attract_png_1354831005_26
+    21300054: npc_gardening_vendor__x1_attract_png_1354831005_27
+    21300056: npc_gardening_vendor__x1_attract_png_1354831005_28
+    21300058: npc_gardening_vendor__x1_attract_png_1354831005_29
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 210
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4f2d006e6d43f48ae2cec891934e6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 990
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7250a70706c7c0542827b4b3f556527a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_2
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 990
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e087da8d0aefae546957f2cc65581511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 990
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f0fab6ce4b8a4ca4b09c41483f2f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_4
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 990
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56ea199c1575894aaa9de360ff20cc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1764f3bcefe4db84da03bd051d3c77c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 792
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088646ecf48fc5428e8b143781bb4e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 792
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3148441b3cdb5f40b4156ff81930a62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 792
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f334c343c3a8c41853c898639e113e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_9
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 792
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea8c25b816ee4a40b83eb4b4ddcd827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb462807f9e14a46842d2f1c562fab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 594
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecb2da46b8dc7747aa87bcf2e017ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_12
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 594
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92a73b34bfbb3b49ac95456096aaf3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_13
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 594
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2517a473d6add4eb36e4e465fb1f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_14
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 594
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c5eaeb68f5a72428398a4a97136c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa5f8d17fbc8c247a9fb37d481068f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 396
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f4d5f8be4a2c242b8684e2a46da23e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 396
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719590b00d175b6469145fb81f38f039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_18
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 396
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5956184c6603e004385e9a42b69fc4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_19
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 396
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ff16a398ff7fe40a2f6896ab90f6b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a81bf5c3c09824d85463790422bdcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 198
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94003759d63c2e24bb83995c029ccc72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 198
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb74a71587035a419d34e057640dcc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_23
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 198
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07355a8c38a48804d99eaf979e363d8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_24
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 198
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2e370248411074cbc40d3464207f71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573688d406cfcf4e8c7aa55ce5dfbfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19852f15b6b21cf4c8aa3d352664bc16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf2209ded1e56458a386f24bfb9b81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_28
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2d0ddded6f4d49a2aab954bef53c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_gardening_vendor__x1_attract_png_1354831005_29
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0
+        width: 178
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386531dce1662d4097dec1209ba1009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 153fd47155b03cc4f9440f46f3aa3e26
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
