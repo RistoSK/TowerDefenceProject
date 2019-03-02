@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 162a4c1f13cd4424a904e0ff721f97f0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npc_chicken__x1_walk_png_1354830385 - Copy_0
+    21300002: npc_chicken__x1_walk_png_1354830385 - Copy_1
+    21300004: npc_chicken__x1_walk_png_1354830385 - Copy_2
+    21300006: npc_chicken__x1_walk_png_1354830385 - Copy_3
+    21300008: npc_chicken__x1_walk_png_1354830385 - Copy_4
+    21300010: npc_chicken__x1_walk_png_1354830385 - Copy_5
+    21300012: npc_chicken__x1_walk_png_1354830385 - Copy_6
+    21300014: npc_chicken__x1_walk_png_1354830385 - Copy_7
+    21300016: npc_chicken__x1_walk_png_1354830385 - Copy_8
+    21300018: npc_chicken__x1_walk_png_1354830385 - Copy_9
+    21300020: npc_chicken__x1_walk_png_1354830385 - Copy_10
+    21300022: npc_chicken__x1_walk_png_1354830385 - Copy_11
+    21300024: npc_chicken__x1_walk_png_1354830385 - Copy_12
+    21300026: npc_chicken__x1_walk_png_1354830385 - Copy_13
+    21300028: npc_chicken__x1_walk_png_1354830385 - Copy_14
+    21300030: npc_chicken__x1_walk_png_1354830385 - Copy_15
+    21300032: npc_chicken__x1_walk_png_1354830385 - Copy_16
+    21300034: npc_chicken__x1_walk_png_1354830385 - Copy_17
+    21300036: npc_chicken__x1_walk_png_1354830385 - Copy_18
+    21300038: npc_chicken__x1_walk_png_1354830385 - Copy_19
+    21300040: npc_chicken__x1_walk_png_1354830385 - Copy_20
+    21300042: npc_chicken__x1_walk_png_1354830385 - Copy_21
+    21300044: npc_chicken__x1_walk_png_1354830385 - Copy_22
+    21300046: npc_chicken__x1_walk_png_1354830385 - Copy_23
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 343
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b435767c61e44c88202ef2d6ba490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 343
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe7ba22564cf748a559ad8658061e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 343
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f3f4015fa9df428283ca909a3aff8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 343
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bb576994c896340bcaeb62a67acbda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 343
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb41719f0d309c5438658d6188e85f91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 343
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a207d008daca44438fe7ee3b4c62f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 233
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae73f0d2dab27541bdc1ec27fd9e470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 233
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c1ee881fbafd04ab68f9e586f07163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 233
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6e27971bcd0c498162b0c102a12a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 233
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c879a41f2adb234a9835ac4fd4cb58f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 233
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a24772b0cd784e9f6bbd655e5cb34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 233
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a5d5777fa5c645aaeb16652aa9d31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 123
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad73380c58c8044684cce49e94ed74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 123
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62485cdd86e998e43b2a67709f4faa91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 123
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c14cd7030ea31b488805027401825c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 123
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9a8cdb557aa0045ba1bc7630390cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 123
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ed02cf6eef864a8b8478a0555f050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 123
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f45c9ca3bf11ee4b8d37bbb33986350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c200351a7e1441b7aff3ee29d58f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 12
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578e4172fd2be7d41b140f59a78061d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 12
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eef5eb52d75b54ba29b21fa910cfde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 13
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3707d639bb9724daf49f9e15aae733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 13
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd15d1db75a9e047bc0e09c93efdbc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_chicken__x1_walk_png_1354830385 - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 13
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4592a46aa13e2724ea057f895b501274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 368675b0a2cf8494c87281a9280de623
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
