@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 05a66609bc4e04a4290f90b5e6c9fb2d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprinter_spawn_0
+    21300002: sprinter_spawn_1
+    21300004: sprinter_spawn_2
+    21300006: sprinter_spawn_3
+    21300008: sprinter_spawn_4
+    21300010: sprinter_spawn_5
+    21300012: sprinter_spawn_6
+    21300014: sprinter_spawn_7
+    21300016: sprinter_spawn_8
+    21300018: sprinter_spawn_9
+    21300020: sprinter_spawn_10
+    21300022: sprinter_spawn_11
+    21300024: sprinter_spawn_12
+    21300026: sprinter_spawn_13
+    21300028: sprinter_spawn_14
+    21300030: sprinter_spawn_15
+    21300032: sprinter_spawn_16
+    21300034: sprinter_spawn_17
+    21300036: sprinter_spawn_18
+    21300038: sprinter_spawn_19
+    21300040: sprinter_spawn_20
+    21300042: sprinter_spawn_21
+    21300044: sprinter_spawn_22
+    21300046: sprinter_spawn_23
+    21300048: sprinter_spawn_24
+    21300050: sprinter_spawn_25
+    21300052: sprinter_spawn_26
+    21300054: sprinter_spawn_27
+    21300056: sprinter_spawn_28
+    21300058: sprinter_spawn_29
+    21300060: sprinter_spawn_30
+    21300062: sprinter_spawn_31
+    21300064: sprinter_spawn_32
+    21300066: sprinter_spawn_33
+    21300068: sprinter_spawn_34
+    21300070: sprinter_spawn_35
+    21300072: sprinter_spawn_36
+    21300074: sprinter_spawn_37
+    21300076: sprinter_spawn_38
+    21300078: sprinter_spawn_39
+    21300080: sprinter_spawn_40
+    21300082: sprinter_spawn_41
+    21300084: sprinter_spawn_42
+    21300086: sprinter_spawn_43
+    21300088: sprinter_spawn_44
+    21300090: sprinter_spawn_45
+    21300092: sprinter_spawn_46
+    21300094: sprinter_spawn_47
+    21300096: sprinter_spawn_48
+    21300098: sprinter_spawn_49
+    21300100: sprinter_spawn_50
+    21300102: sprinter_spawn_51
+    21300104: sprinter_spawn_52
+    21300106: sprinter_spawn_53
+    21300108: sprinter_spawn_54
+    21300110: sprinter_spawn_55
+    21300112: sprinter_spawn_56
+    21300114: sprinter_spawn_57
+    21300116: sprinter_spawn_58
+    21300118: sprinter_spawn_59
+    21300120: sprinter_spawn_60
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprinter_spawn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aaa8d6d0c11e9478cfc1789b156c2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b2ed85f0dfa54aaac9adff75b8086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ce8095b363aab438ed7b593fdc2483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e40d1d1e5d0a40a60f233e35b8d39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31d25adb2292a4aa0dba5fac605a64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916ca98a19c89ac4580595efa544540c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed39b3555f7956f4ea5c5a89e3866a18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca9070a96ba1774d80b0c4b036b0bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0031483fe7094b94f98d9988174ff9cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8442828db45e1ea4594b48e226c78812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7be28456f3bc543847a64acbeb6be9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d0b2dbb57b41a489abbf523ae735f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced72f68b9b48e24eb0807a4906e24ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d546ae19a4a7f43469be5841b6ef46ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b3aa19fd67edd49a9079b45552a791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784988d7c0b56e84c80c9dada06ab107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6f32839a0d2f94ab654bdb9a006833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc3f8d10ded0ab4f9e9c12635872071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_18
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86606e26dea11eb42a492b91d98c44f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ceccc2585b28d42817752ac69db68d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_20
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a5fcff6e5c97b4da15034381a5db75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d59bac5abc35c14d87336b7248b0bf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6197f51b2a368ed439f9837f3d6aac23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5814c04e1dd9a6942a486ed082701538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd70b02837bab941ba4d91ccb97b854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2334d2024f897f840884de145d175d46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c7b163a564c324d9ce6cc6930ccd9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82c72c853170fa4da026c362e3a0789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_28
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380bdec411904ee43baae5daff9891cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd05a250eb4384a4daf2faeaa9fe423e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb7fbc4a520185449df446abb12f280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05224704e3cc35940a3d13e2cec35f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a9b2af13ff314985d67d1fa29d386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e5ed1cd6bddc64f998c7b51a031344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36c2dc384205de4eb9687e654ea3b34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_35
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473ee698b19a6841b15765655157fec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_36
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9a5d62b6838a24a978cdb76de89dce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcfdc5ebe74a75499f6d493db6d841a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_38
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8a198c62f16a48a60275e40316339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9eabb5c9ad7244880767f13c5b2711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_40
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af14dd2a4a2415499c6ef9de9cf1675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_41
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1007b392be8cdb4d9610c41fd14ada2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_42
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e44527953e54f4ea7d777d1bb2fb90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_43
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbda16fd435763469f1e5c6e5d0313f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_44
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d536447ea456e5345954dfbb8a3ec07c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c61aa45bad1bc4186fc4d2d0709160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34495de29272a754ca2e0ee54a0987a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8c279019e41114db128ffb608c17aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_48
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360543620f5420a4893fb993ada03ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33726179bf26ceb40bf70a4760bfec4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_50
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba79139c68ee2d94fbf8a2f06f88c5a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_51
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585327ba02cabd843a396810a81539df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_52
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a6e2684a68614495dbbce2ac0ee5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea6079622e35c84688e03a0139720e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_54
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6d897f9fa026448b6458de51607654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e8a9cb67fc4044eb205729e3bb793f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_56
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed79aed790869954998aabe6c5dcfd0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_57
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe875881a54ba4abcfe424708fc431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_58
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724874ce68b24fe4e8f402df284e6a6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_59
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8791382e519e284e9ce7df5fff20ca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinter_spawn_60
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63372ae574257a40827811e8b138dbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 36be9bc495947e7438e2d198656cc5c5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

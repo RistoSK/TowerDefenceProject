@@ -1,40 +1,42 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour {
+namespace Enemies
+{
+    public class EnemySpawner : MonoBehaviour {
 
-    [SerializeField] private float _minSpawnDelay = 2f;
-    [SerializeField] private float _maxSpawnDelay = 5f;
+        [SerializeField] private float minSpawnDelay = 2f;
+        [SerializeField] private float maxSpawnDelay = 5f;
 
-    [SerializeField] private Transform[] _spawnPositions;
-    [SerializeField] private Enemy[] _enemies;
+        [SerializeField] private Transform[] spawnPositions;
+        [SerializeField] private Enemy[] enemies;
 
-    [SerializeField] private bool _bShouldSpawn = true;
+        [SerializeField] private bool bShouldSpawn = true;
 
-    private int _spawnLaneIndex;
-    private int _enemyToSpawnIndex;
+        private int _spawnLaneIndex;
+        private int _enemyToSpawnIndex;
 
-	// Use this for initialization
-	IEnumerator Start ()
-    {
-        while(_bShouldSpawn)
+        // Use this for initialization
+        IEnumerator Start ()
         {
-            yield return new WaitForSeconds(Random.Range(_minSpawnDelay, _maxSpawnDelay));
-            _spawnLaneIndex = Random.Range(0, _spawnPositions.Length);
-            SpawnEnemy(_spawnPositions[_spawnLaneIndex]);
+            while(bShouldSpawn)
+            {
+                yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+                _spawnLaneIndex = Random.Range(0, spawnPositions.Length);
+                SpawnEnemy(spawnPositions[_spawnLaneIndex]);
+            }
         }
-	}
 
-    private void SpawnEnemy(Transform spawnPosition)
-    {
-        _enemyToSpawnIndex = Random.Range(0, _enemies.Length);
+        private void SpawnEnemy(Transform spawnPosition)
+        {
+            _enemyToSpawnIndex = Random.Range(0, enemies.Length);
 
-        Instantiate(_enemies[_enemyToSpawnIndex], spawnPosition.position, transform.rotation);
-    }
+            Instantiate(enemies[_enemyToSpawnIndex], spawnPosition.position, transform.rotation);
+        }
 
-    public void SetShouldSpawn(bool shouldSpawn)
-    {
-        _bShouldSpawn = shouldSpawn;
+        public void SetShouldSpawn(bool shouldSpawn)
+        {
+            bShouldSpawn = shouldSpawn;
+        }
     }
 }

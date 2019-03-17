@@ -15,4 +15,4 @@ MonoBehaviour:
   Damage: 20
   AttackCooldown: 1
   Speed: 1
-  ShouldJump: 1
+  Type: 2

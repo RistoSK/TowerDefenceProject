@@ -1,20 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyGoal : MonoBehaviour
+namespace General
 {
-    private Level level;
+    public class EnemyGoal : MonoBehaviour
+    {
+        private Level level;
 
-    void Start()
-    {
-        level = FindObjectOfType<Level>();
-    }
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider != null)
+        void Start()
         {
-            level.GameOver();
+            level = FindObjectOfType<Level>();
+        }
+        void OnTriggerEnter2D(Collider2D collider)
+        {
+            if (collider != null)
+            {
+                level.GameOver();
+            }
         }
     }
 }

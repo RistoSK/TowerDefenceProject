@@ -1,58 +1,60 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Level : MonoBehaviour
+namespace General
 {
-    private GameSession gameSession;
-
-    [SerializeField] private GameObject _levelCompletedCanvas;
-
-    [SerializeField] private AudioClip _youWonAudio;
-
-    private void Awake()
+    public class Level : MonoBehaviour
     {
-        gameSession = FindObjectOfType<GameSession>();
-        
-        _levelCompletedCanvas.SetActive(false);
-    }
+        private GameSession _gameSession;
 
-    public void StartMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
+        [SerializeField] private GameObject levelCompletedCanvas;
 
-    public void PlayGame()
-    {
-        SceneManager.LoadScene(1);
+        [SerializeField] private AudioClip youWonAudio;
 
-        if (gameSession)
+        private void Awake()
         {
-            gameSession.ResetGame();
+            _gameSession = FindObjectOfType<GameSession>();
+        
+            levelCompletedCanvas.SetActive(false);
         }
-    }
 
-    public void WonGame()
-    {
-        _levelCompletedCanvas.SetActive(true);
+        public void StartMenu()
+        {
+            SceneManager.LoadScene(0);
+        }
 
-        AudioSource.PlayClipAtPoint(_youWonAudio, Camera.main.transform.position);
-    }
+        public void PlayGame()
+        {
+            SceneManager.LoadScene(1);
 
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+            if (_gameSession)
+            {
+                _gameSession.ResetGame();
+            }
+        }
 
-    public void GameOver()
-    {
-        StartCoroutine(GameOverDelay());
-    }
+        public void WonGame()
+        {
+            levelCompletedCanvas.SetActive(true);
 
-    IEnumerator GameOverDelay()
-    {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(3);
+            AudioSource.PlayClipAtPoint(youWonAudio, Camera.main.transform.position);
+        }
+
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
+
+        public void GameOver()
+        {
+            StartCoroutine(GameOverDelay());
+        }
+
+        IEnumerator GameOverDelay()
+        {
+            yield return new WaitForSeconds(2);
+            SceneManager.LoadScene(3);
+        }
     }
 }

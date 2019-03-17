@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Enemies;
 using UnityEngine;
 
 public class EnemyStateMachine : MonoBehaviour
@@ -8,10 +9,7 @@ public class EnemyStateMachine : MonoBehaviour
 
     public void ChangeState(IEnemyState newState, Enemy enemy, EnemyData data)
     {
-        if (_currentEnemyState != null)
-        {
-            _currentEnemyState.Exit();
-        }
+        _currentEnemyState?.Exit();
         _currentEnemyState = newState;
         _currentEnemyState.Enter(enemy, data);
         

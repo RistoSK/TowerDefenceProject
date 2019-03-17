@@ -3,7 +3,7 @@
 [CreateAssetMenu(menuName = "Resource Data")]
 public class ResourceData : ScriptableObject
 {
-    public int Points;
-    public float Speed;
-    public float LifeTime;
+    public int points;
+    public float speed;
+    public float lifeTime;
 }

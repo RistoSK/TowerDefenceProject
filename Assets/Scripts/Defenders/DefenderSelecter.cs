@@ -1,46 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DefenderSelecter : MonoBehaviour
+namespace Defenders
 {
-    [SerializeField] Defender defenderPrefab;
-
-    DefenderSpawner defenderSpawner;
-    DefenderSelecter[] defenders;
-
-    void Start ()
+    public class DefenderSelecter : MonoBehaviour
     {
-        defenderSpawner = FindObjectOfType<DefenderSpawner>(); 
-    }
+        [SerializeField] Defender defenderPrefab;
 
-    void OnMouseDown ()
-    {
-        if (defenderSpawner == null)
+        DefenderSpawner _defenderSpawner;
+        DefenderSelecter[] defenders;
+
+        void Start ()
         {
-            Debug.Log("Defender is missing");
-            return;
+            _defenderSpawner = FindObjectOfType<DefenderSpawner>(); 
         }
 
-        DisableDefenderSelecterColors();
-
-        GetComponent<SpriteRenderer>().color = Color.white;
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
-    }
-
-    public void DisableDefenderSelecterColors()
-    {
-        defenders = FindObjectsOfType<DefenderSelecter>();
-
-        if (defenders == null)
+        void OnMouseDown ()
         {
-            Debug.Log("Defenders[] is null");
-            return;
+            if (_defenderSpawner == null)
+            {
+                Debug.Log("Defender is missing");
+                return;
+            }
+
+            DisableDefenderSelecterColors();
+
+            GetComponent<SpriteRenderer>().color = Color.white;
+            FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
         }
 
-        foreach (DefenderSelecter defender in defenders)
+        public void DisableDefenderSelecterColors()
         {
-            defender.GetComponent<SpriteRenderer>().color = new Color32(100, 100, 100, 255);
+            defenders = FindObjectsOfType<DefenderSelecter>();
+
+            if (defenders == null)
+            {
+                Debug.Log("Defenders[] is null");
+                return;
+            }
+
+            foreach (DefenderSelecter defender in defenders)
+            {
+                defender.GetComponent<SpriteRenderer>().color = new Color32(100, 100, 100, 255);
+            }
         }
     }
 }

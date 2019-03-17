@@ -1,45 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyAttackState : IEnemyState
+namespace State.Enemy
 {
-    private Enemy _enemy;
-    private Health _enemyHealth;
-    private Animator _anim;
-    private EnemyData _enemyData;
-    private float _remainingCooldown;
-
-    public void Enter(Enemy enemy, EnemyData data)
+    public class EnemyAttackState : IEnemyState
     {
-        _enemy = enemy;
-        _anim = enemy.MyAnimator;
-        _remainingCooldown = 0;
-        _enemyData = data;
+        private global::Enemies.Enemy _enemy;
+        private Health _enemyHealth;
+        private Animator _anim;
+        private EnemyData _enemyData;
+        private float _remainingCooldown;
 
-        enemy.SetMovementSpeed(0);
-    }
-
-    public void Execute()
-    {
-        IsEnemyAttacking(true);
-
-        if (_remainingCooldown <= 0)
+        public void Enter(global::Enemies.Enemy enemy, EnemyData data)
         {
-            _enemyHealth.DealDamage(_enemyData.Damage);
-            _remainingCooldown = _enemyData.AttackCooldown;
+            _enemy = enemy;
+            _enemyHealth = _enemy.EnemyHealth;
+            _anim = enemy.MyAnimator;
+            _remainingCooldown = 0;
+            _enemyData = data;
+
+            enemy.SetMovementSpeed(0);
         }
 
-        _remainingCooldown -= Time.deltaTime;
-    }
+        public void Execute()
+        {
+            IsEnemyAttacking(true);
 
-    public void Exit()
-    {
-        IsEnemyAttacking(false);
-    }
+            if (_remainingCooldown <= 0)
+            {
+                _enemyHealth.DealDamage(_enemyData.damage, false);
+                _remainingCooldown = _enemyData.attackCooldown;
+            }
 
-    private void IsEnemyAttacking(bool shouldAttack)
-    {
-        _anim.SetBool("isAttacking", shouldAttack);
+            _remainingCooldown -= Time.deltaTime;
+        }
+
+        public void Exit()
+        {
+            IsEnemyAttacking(false);
+        }
+
+        private void IsEnemyAttacking(bool shouldAttack)
+        {
+            _anim.SetBool("isAttacking", shouldAttack);
+        }
     }
 }

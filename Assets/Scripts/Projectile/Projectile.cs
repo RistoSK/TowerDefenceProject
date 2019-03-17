@@ -1,43 +1,65 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using Enemies;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+namespace Projectile
 {
-    [SerializeField] private ProjectileData _projectileData;
+    public class Projectile : MonoBehaviour
+    {
+        [SerializeField] private ProjectileData projectileData;
+        [SerializeField] private bool bHitGhost;
+        [SerializeField] private bool bShouldFreeze;
 
-    private Health _health;
+        private Health _health;
+        private Enemy _enemy;
     
-    void Start()
-    {
-        if (_projectileData == null)
+        private void Start()
         {
-            Debug.Log("Projectile data is missing");
+            if (projectileData == null)
+            {
+                Debug.Log("Projectile data is missing");
+            }
         }
-    }
 
-    void Update()
-    {
-        transform.position += (Vector3.right * _projectileData.Speed * Time.deltaTime);
-        transform.Rotate(0f, 0f, _projectileData.RotationSpeed);
-    }
+        private void Update()
+        {
+            transform.position += (Vector3.right * projectileData.speed * Time.deltaTime);
+            transform.Rotate(0f, 0f, projectileData.rotationSpeed);
+        }
 
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.GetComponent<Health>() == null && collider.GetComponent<Enemy>() == null) { return; }
+        private void OnTriggerEnter2D(Collider2D collider)
+        {
+            if (collider.GetComponent<Health>() == null && collider.GetComponent<Enemy>() == null) { return; }
 
-        _health = collider.GetComponent<Health>();
-        _health.DealDamage(_projectileData.DamageAmount);
+            _health = collider.GetComponent<Health>();
+            _health.DealDamage(projectileData.damageAmount, bHitGhost);
 
-        TriggerDeathVFX();
-        Destroy(gameObject);
-    }
+            if (bShouldFreeze)
+            {
+                _enemy = collider.GetComponent<Enemy>();
 
-    void TriggerDeathVFX()
-    {
-        if (!_projectileData.DeathVFX) { return; }
+                StartCoroutine(FreezeEnemy(_enemy));
+            }
 
-        GameObject deathVFXObject = Instantiate(_projectileData.DeathVFX, transform.position, transform.rotation);
-        Destroy(deathVFXObject, 2f);
+            TriggerDeathVFX();
+            Destroy(gameObject);
+        }
+
+        private void TriggerDeathVFX()
+        {
+            if (!projectileData.deathVFX) { return; }
+
+            GameObject deathVFXObject = Instantiate(projectileData.deathVFX, transform.position, transform.rotation);
+            Destroy(deathVFXObject, 2f);
+        }
+
+        private IEnumerator FreezeEnemy(Enemy enemy)
+        {
+            enemy.SetMovementSpeed(enemy.CurrentSpeed / 2);
+            // TODO turn frozen
+            yield return new WaitForSeconds(3);
+            enemy.SetMovementSpeed(enemy.CurrentSpeed);
+            // TODO unfreeze
+        }
     }
 }

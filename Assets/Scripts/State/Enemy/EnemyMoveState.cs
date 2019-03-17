@@ -1,26 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnemyMoveState : IEnemyState
+﻿namespace State.Enemy
 {
-    private Enemy _enemy;
-    private EnemyData _enemyData;
-
-    public void Enter(Enemy enemy, EnemyData data)
+    public class EnemyMoveState : IEnemyState
     {
-        _enemy = enemy;
-        _enemyData = data;
-        enemy.SetMovementSpeed(data.Speed);
-    }
+        private global::Enemies.Enemy _enemy;
+        private EnemyData _enemyData;
 
-    public void Execute()
-    {
+        public void Enter(global::Enemies.Enemy enemy, EnemyData data)
+        {
+            _enemy = enemy;
+            _enemyData = data;
+            enemy.SetMovementSpeed(data.speed);
+        }
 
-    }
+        public void Execute()
+        {
 
-    public void Exit()
-    {
+        }
 
+        public void Exit()
+        {
+
+        }
     }
 }

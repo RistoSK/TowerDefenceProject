@@ -3,8 +3,8 @@
 [CreateAssetMenu(menuName = "Defender Data")]
 public class DefenderData : ScriptableObject
 {
-    public int Cost;
-    public float SpawnCooldown;
-    public Projectile Projectile;
+    public int cost;
+    public float spawnCooldown;
+    public Projectile.Projectile projectile;
     public bool isJumpable;
 }

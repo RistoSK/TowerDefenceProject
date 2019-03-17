@@ -1,18 +1,20 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LevelLoader : MonoBehaviour {
+namespace General
+{
+    public class LevelLoader : MonoBehaviour {
 
-    void Start()
-    {
-        StartCoroutine(LoadingScreenDelay());
-    }
+        void Start()
+        {
+            StartCoroutine(LoadingScreenDelay());
+        }
 
-    IEnumerator LoadingScreenDelay()
-    {
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(2);
+        IEnumerator LoadingScreenDelay()
+        {
+            yield return new WaitForSeconds(3);
+            SceneManager.LoadScene(2);
+        }
     }
 }

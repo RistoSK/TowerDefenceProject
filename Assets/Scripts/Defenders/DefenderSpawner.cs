@@ -1,75 +1,77 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Resources;
 using UnityEngine;
 
-public class DefenderSpawner : MonoBehaviour
+namespace Defenders
 {
-    Defender defender;
-
-    Vector2 clickPos;
-    Vector2 worldPos;
-    Vector2 gridPos;
-
-    DefenderSelecter defenderSelecter;
-    ResourceDisplay resourceDisplay;
-
-    void Start ()
+    public class DefenderSpawner : MonoBehaviour
     {
-        defenderSelecter = FindObjectOfType<DefenderSelecter>();
-        resourceDisplay = FindObjectOfType<ResourceDisplay>();
-    }
+        private Defender _defender;
 
-    public void SetSelectedDefender(Defender defenderToSelect)
-    {
-        defender = defenderToSelect;
-    }
+        private Vector2 _clickPos;
+        private Vector2 _worldPos;
+        private Vector2 _gridPos;
 
-    void OnMouseDown ()
-    {
-        if (defender == null)
+        private DefenderSelecter _defenderSelecter;
+        private ResourceDisplay _resourceDisplay;
+
+        void Start ()
         {
-            Debug.Log("Defender is missing");
-            return;
+            _defenderSelecter = FindObjectOfType<DefenderSelecter>();
+            _resourceDisplay = FindObjectOfType<ResourceDisplay>();
         }
 
-        PlaceDefender(GetSquareClicked());
+        public void SetSelectedDefender(Defender defenderToSelect)
+        {
+            _defender = defenderToSelect;
+        }
+
+        void OnMouseDown ()
+        {
+            if (_defender == null)
+            {
+                Debug.Log("Defender is missing");
+                return;
+            }
+
+            PlaceDefender(GetSquareClicked());
       
-        if (defenderSelecter == null)
-        {
-            Debug.Log("DefenderSelecter is null");
-            return;
+            if (_defenderSelecter == null)
+            {
+                Debug.Log("DefenderSelecter is null");
+                return;
+            }
+            _defenderSelecter.DisableDefenderSelecterColors();
         }
-        defenderSelecter.DisableDefenderSelecterColors();
-    }
 
-    Vector2 GetSquareClicked()
-    {
-        clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        worldPos = Camera.main.ScreenToWorldPoint(clickPos);
-        gridPos = FitToGrid(worldPos);
-
-        return gridPos;
-    }
-
-    Vector2 FitToGrid(Vector2 worldPos)
-    {
-        float newX = Mathf.RoundToInt(worldPos.x);
-        float newY = Mathf.RoundToInt(worldPos.y);
-
-        return new Vector2(newX, newY);
-    }
-
-    void PlaceDefender(Vector2 spawnPosition)
-    {
-        //TODO make more generic
-        int defenderCost = defender.GetResourcesCost();
-
-        if (defenderCost < resourceDisplay.getResourcesAmount())
+        Vector2 GetSquareClicked()
         {
-            resourceDisplay.removeResources(defenderCost);
-            Defender defenderToSpawn = Instantiate(defender, spawnPosition, transform.rotation);
-            // De-select the defender from the list so the user has to click it again
-            defender = null;
+            _clickPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            _worldPos = Camera.main.ScreenToWorldPoint(_clickPos);
+            _gridPos = FitToGrid(_worldPos);
+
+            return _gridPos;
+        }
+
+        Vector2 FitToGrid(Vector2 worldPos)
+        {
+            float newX = Mathf.RoundToInt(worldPos.x);
+            float newY = Mathf.RoundToInt(worldPos.y);
+
+            return new Vector2(newX, newY);
+        }
+
+        void PlaceDefender(Vector2 spawnPosition)
+        {
+            //TODO make more generic
+            int defenderCost = _defender.GetResourcesCost();
+
+            if (defenderCost < _resourceDisplay.GetResourcesAmount())
+            {
+                _resourceDisplay.RemoveResources(defenderCost);
+                Defender defenderToSpawn = Instantiate(_defender, spawnPosition, transform.rotation);
+                // De-select the defender from the list so the user has to click it again
+                _defender = null;
+            }
         }
     }
 }

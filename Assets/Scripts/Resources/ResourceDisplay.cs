@@ -1,42 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class ResourceDisplay : MonoBehaviour
+namespace Resources
 {
-
-    [SerializeField] private int _resourceAmount = 100;
-
-    private Text _resourceAmountText;
-
-    void Start ()
+    public class ResourceDisplay : MonoBehaviour
     {
-        _resourceAmountText = GetComponent<Text>();
-        UpdateDisplay();
-    }
 
-    void UpdateDisplay()
-    {
-        _resourceAmountText.text = _resourceAmount.ToString();
-    }
+        [SerializeField] private int resourceAmount = 100;
 
-    public void addResources(int amount)
-    {
-        _resourceAmount += amount;
-        UpdateDisplay();
-    }
+        private Text _resourceAmountText;
 
-    public void removeResources(int amount)
-    {
-        if (_resourceAmount - amount < 0) { return; }
+        void Start ()
+        {
+            _resourceAmountText = GetComponent<Text>();
+            UpdateDisplay();
+        }
 
-        _resourceAmount -= amount;
-        UpdateDisplay();
-    }
+        void UpdateDisplay()
+        {
+            _resourceAmountText.text = resourceAmount.ToString();
+        }
 
-    public int getResourcesAmount()
-    {
-        return _resourceAmount;
+        public void AddResources(int amount)
+        {
+            resourceAmount += amount;
+            UpdateDisplay();
+        }
+
+        public void RemoveResources(int amount)
+        {
+            if (resourceAmount - amount < 0) { return; }
+
+            resourceAmount -= amount;
+            UpdateDisplay();
+        }
+
+        public int GetResourcesAmount()
+        {
+            return resourceAmount;
+        }
     }
 }

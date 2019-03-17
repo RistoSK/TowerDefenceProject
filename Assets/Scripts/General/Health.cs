@@ -5,9 +5,15 @@ using UnityEngine;
 public class Health : MonoBehaviour {
 
     [SerializeField] private int _healthPoints;
+    [SerializeField] private bool _isGhost;
 
-    public void DealDamage(int damage)
+    public void DealDamage(int damage, bool bHitGhost)
     {
+        if (_isGhost && bHitGhost)
+        {
+            Destroy(gameObject);
+        }
+
         _healthPoints -= damage;
         
         if (_healthPoints <= 0)

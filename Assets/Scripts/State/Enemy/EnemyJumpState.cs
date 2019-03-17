@@ -1,31 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnemyJumpState : IEnemyState
+﻿namespace State.Enemy
 {
-    private Enemy _enemy;
-
-    public void Enter(Enemy enemy, EnemyData data)
+    public class EnemyJumpState : IEnemyState
     {
-        _enemy = enemy;
+        private Enemies.Enemy _enemy;
 
-        enemy.SetMovementSpeed(data.Speed * 2);
-        IsEnemyJumping(true);
-    }
+        public void Enter(Enemies.Enemy enemy, EnemyData data)
+        {
+            _enemy = enemy;
 
-    public void Execute()
-    {
+            enemy.SetMovementSpeed(data.speed * 2);
+            IsEnemyJumping(true);
+        }
 
-    }
+        public void Execute()
+        {
 
-    public void Exit()
-    {
-        IsEnemyJumping(false);
-    }
+        }
 
-    void IsEnemyJumping(bool bShouldJump)
-    {
-        _enemy.MyAnimator.SetBool("isJumping", bShouldJump);
+        public void Exit()
+        {
+            IsEnemyJumping(false);
+        }
+
+        void IsEnemyJumping(bool bShouldJump)
+        {
+            _enemy.MyAnimator.SetBool("isJumping", bShouldJump);
+        }
     }
 }
