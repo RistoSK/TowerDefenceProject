@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1111dda694d5b694da3379012a632eda, type: 3}
   m_Name: Fruit Resources
   m_EditorClassIdentifier: 
-  Points: 10
-  Speed: 1.1
-  LifeTime: 5
+  points: 1
+  speed: 1
+  lifeTime: 3

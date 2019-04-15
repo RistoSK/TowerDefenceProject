@@ -9,7 +9,6 @@ namespace General
         private GameSession _gameSession;
 
         [SerializeField] private GameObject levelCompletedCanvas;
-
         [SerializeField] private AudioClip youWonAudio;
 
         private void Awake()
@@ -38,7 +37,10 @@ namespace General
         {
             levelCompletedCanvas.SetActive(true);
 
-            AudioSource.PlayClipAtPoint(youWonAudio, Camera.main.transform.position);
+            if (Camera.main != null)
+            {
+                AudioSource.PlayClipAtPoint(youWonAudio, Camera.main.transform.position);
+            }
         }
 
         public void QuitGame()

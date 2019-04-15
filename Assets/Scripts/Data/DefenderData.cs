@@ -7,4 +7,5 @@ public class DefenderData : ScriptableObject
     public float spawnCooldown;
     public Projectile.Projectile projectile;
     public bool isJumpable;
+    public bool shouldAttackAutomatically;
 }

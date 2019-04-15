@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthPoints: 100
+  _isGhost: 0
 --- !u!114 &114709141019446670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f931a454559bce74b84d5f59fd106e9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyData: {fileID: 11400000, guid: d05c600671d15294ea3d7b6ff04988db, type: 2}
+  enemyData: {fileID: 11400000, guid: d05c600671d15294ea3d7b6ff04988db, type: 2}
 --- !u!95 &95221685109881142
 Animator:
   serializedVersion: 3

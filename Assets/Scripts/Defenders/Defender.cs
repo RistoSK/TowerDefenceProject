@@ -8,6 +8,8 @@ public class Defender : MonoBehaviour
     [SerializeField] private DefenderData defenderData;
     [SerializeField] private Resource resourcePrefab;
     [SerializeField] private Transform spawnPosition;
+    [SerializeField] private GameObject reloadBar;
+    [SerializeField] private Transform reloadBarTransform;
 
     private float _remainingCooldown;
     private RaycastHit2D _hit;
@@ -15,13 +17,8 @@ public class Defender : MonoBehaviour
 
     void Start()
     {
-        if (defenderData.projectile == null)
-        {
-            Debug.LogError("Defender data projectile is null");
-        }
-
         _anim = GetComponent<Animator>();
-        _remainingCooldown = defenderData.spawnCooldown;
+        _remainingCooldown = 0;
 
         if (_anim == null)
         {
@@ -34,12 +31,43 @@ public class Defender : MonoBehaviour
     {
         // TODO make more generic (what if the attacking monster doesn't have a projectile)
 
-        _hit = Physics2D.Raycast(transform.position, Vector2.right, 10f, LayerMask.GetMask("Enemy"));
+        if (defenderData.projectile == null)
+        {
+            return;
+        }
+        if (defenderData.shouldAttackAutomatically)
+        {
+            _hit = Physics2D.Raycast(transform.position, Vector2.right, 10f, LayerMask.GetMask("Enemy"));
 
-        if (!_hit.collider.isActiveAndEnabled) { return; }
+            if (!_hit.collider.isActiveAndEnabled) { return; }
 
-        _anim.Play("Attack");
-        Shoot();
+            _anim.Play("Attack");
+            Shoot();
+        }
+        else
+        {
+            ShootWithCoolDown();
+        }
+    }
+
+    private void ShootWithCoolDown()
+    {
+        if (_remainingCooldown <= 0)
+        {
+            reloadBar.gameObject.SetActive(false);
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Instantiate(defenderData.projectile, spawnPosition.position, transform.rotation);
+                _anim.Play("Attack");
+                _remainingCooldown = defenderData.spawnCooldown;
+            }
+        }
+        else
+        {
+            reloadBar.gameObject.SetActive(true);
+            _remainingCooldown -= Time.deltaTime;
+            reloadBarTransform.localScale = new Vector3(_remainingCooldown / defenderData.spawnCooldown, 1);
+        }
     }
 
     // Called from animation event

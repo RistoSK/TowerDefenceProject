@@ -96,9 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd95210b408e26f45959ac0305626ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _defenderData: {fileID: 11400000, guid: 2a73aa31cf682a04e9c5a021b192af8d, type: 2}
-  _resourcePrefab: {fileID: 0}
-  _spawnPosition: {fileID: 0}
+  defenderData: {fileID: 11400000, guid: 2a73aa31cf682a04e9c5a021b192af8d, type: 2}
+  resourcePrefab: {fileID: 0}
+  spawnPosition: {fileID: 0}
+  reloadBar: {fileID: 0}
 --- !u!114 &114667617923473908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthPoints: 100
+  _isGhost: 0
 --- !u!61 &61572686593484788
 BoxCollider2D:
   m_ObjectHideFlags: 0

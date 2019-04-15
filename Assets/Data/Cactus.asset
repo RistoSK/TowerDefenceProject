@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67fb394254bdde44a38bce39e02ddc4, type: 3}
   m_Name: Cactus
   m_EditorClassIdentifier: 
-  Cost: 10
-  SpawnCooldown: 1
-  Projectile: {fileID: 114830184822178544, guid: cf4e5bc5545328941a9d58f822eada27,
+  cost: 1
+  spawnCooldown: 1
+  projectile: {fileID: 114830184822178544, guid: cf4e5bc5545328941a9d58f822eada27,
     type: 3}
   isJumpable: 0
+  shouldAttackAutomatically: 1

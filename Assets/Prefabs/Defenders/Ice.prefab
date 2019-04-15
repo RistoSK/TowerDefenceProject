@@ -111,9 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd95210b408e26f45959ac0305626ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _defenderData: {fileID: 11400000, guid: 0062dd8595331244ca5dc3f5022f88e3, type: 2}
-  _resourcePrefab: {fileID: 0}
-  _spawnPosition: {fileID: 5447831995714860806}
+  defenderData: {fileID: 11400000, guid: 0062dd8595331244ca5dc3f5022f88e3, type: 2}
+  resourcePrefab: {fileID: 0}
+  spawnPosition: {fileID: 5447831995714860806}
+  reloadBar: {fileID: 0}
 --- !u!50 &5447831996868276954
 Rigidbody2D:
   serializedVersion: 4

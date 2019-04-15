@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67fb394254bdde44a38bce39e02ddc4, type: 3}
   m_Name: Ice
   m_EditorClassIdentifier: 
-  Cost: 1
-  SpawnCooldown: 2
-  Projectile: {fileID: 5383868996019907094, guid: a1902e525d902fc48ad7ddcdcb849c72,
+  cost: 1
+  spawnCooldown: 1
+  projectile: {fileID: 5383868996019907094, guid: a1902e525d902fc48ad7ddcdcb849c72,
     type: 3}
   isJumpable: 0
+  shouldAttackAutomatically: 1

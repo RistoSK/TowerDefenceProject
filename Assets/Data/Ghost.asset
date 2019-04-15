@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739f81c9adf3e5f479ff23e070103227, type: 3}
   m_Name: Ghost
   m_EditorClassIdentifier: 
-  Damage: 0
-  AttackCooldown: 0
-  Speed: 0.5
-  ShouldJump: 0
+  damage: 1
+  attackCooldown: 0
+  speed: 0.5
+  type: 4

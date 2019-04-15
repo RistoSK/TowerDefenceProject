@@ -49,10 +49,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd95210b408e26f45959ac0305626ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _defenderData: {fileID: 11400000, guid: db54945b3dafe3948b41a5937219f47f, type: 2}
-  _resourcePrefab: {fileID: 114461042235521190, guid: 3f917a11b0f44a047b6877cfa560784b,
+  defenderData: {fileID: 11400000, guid: db54945b3dafe3948b41a5937219f47f, type: 2}
+  resourcePrefab: {fileID: 114461042235521190, guid: 3f917a11b0f44a047b6877cfa560784b,
     type: 3}
-  _spawnPosition: {fileID: 4209573291820536}
+  spawnPosition: {fileID: 4209573291820536}
+  reloadBar: {fileID: 0}
 --- !u!114 &114237083710116336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,6 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthPoints: 100
+  _isGhost: 0
 --- !u!212 &212734778186414040
 SpriteRenderer:
   m_ObjectHideFlags: 0

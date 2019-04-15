@@ -94,7 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7452d798ae55046975b0522272fb55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projectileData: {fileID: 11400000, guid: c2b86af6979f984439c31f995928d417, type: 2}
+  projectileData: {fileID: 11400000, guid: c2b86af6979f984439c31f995928d417, type: 2}
+  bHitGhost: 0
+  bShouldFreeze: 0
 --- !u!50 &50825380374562580
 Rigidbody2D:
   serializedVersion: 4
