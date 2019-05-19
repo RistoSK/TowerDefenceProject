@@ -9,9 +9,16 @@ public class Health : MonoBehaviour {
 
     public void DealDamage(int damage, bool bHitGhost)
     {
-        if (_isGhost && bHitGhost)
+        if (_isGhost)
         {
-            Destroy(gameObject);
+            if (bHitGhost)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                return;
+            }
         }
 
         _healthPoints -= damage;

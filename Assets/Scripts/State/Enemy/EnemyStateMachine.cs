@@ -11,8 +11,7 @@ public class EnemyStateMachine : MonoBehaviour
     {
         _currentEnemyState?.Exit();
         _currentEnemyState = newState;
-        _currentEnemyState.Enter(enemy, data);
-        
+        _currentEnemyState.Enter(enemy, data);        
     }
 
     public void ExecuteState()

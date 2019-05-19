@@ -4,13 +4,13 @@ namespace State.Enemy
 {
     public class EnemyAttackState : IEnemyState
     {
-        private global::Enemies.Enemy _enemy;
+        private Enemies.Enemy _enemy;
         private Health _enemyHealth;
         private Animator _anim;
         private EnemyData _enemyData;
         private float _remainingCooldown;
 
-        public void Enter(global::Enemies.Enemy enemy, EnemyData data)
+        public void Enter(Enemies.Enemy enemy, EnemyData data)
         {
             _enemy = enemy;
             _enemyHealth = _enemy.EnemyHealth;

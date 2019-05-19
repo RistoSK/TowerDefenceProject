@@ -6,8 +6,10 @@ using UnityEngine;
 public class Defender : MonoBehaviour
 {
     [SerializeField] private DefenderData defenderData;
-    [SerializeField] private Resource resourcePrefab;
+
+    [Header("Optional Settings")]
     [SerializeField] private Transform spawnPosition;
+    [SerializeField] private Resource resourcePrefab;
     [SerializeField] private GameObject reloadBar;
     [SerializeField] private Transform reloadBarTransform;
 
@@ -35,11 +37,15 @@ public class Defender : MonoBehaviour
         {
             return;
         }
+
         if (defenderData.shouldAttackAutomatically)
         {
             _hit = Physics2D.Raycast(transform.position, Vector2.right, 10f, LayerMask.GetMask("Enemy"));
 
-            if (!_hit.collider.isActiveAndEnabled) { return; }
+            if (!_hit.collider.isActiveAndEnabled)
+            {
+                return;
+            }
 
             _anim.Play("Attack");
             Shoot();

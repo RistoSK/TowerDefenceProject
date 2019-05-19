@@ -115,6 +115,7 @@ MonoBehaviour:
   resourcePrefab: {fileID: 0}
   spawnPosition: {fileID: 4628766562286858}
   reloadBar: {fileID: 0}
+  reloadBarTransform: {fileID: 0}
 --- !u!95 &95970463050331190
 Animator:
   serializedVersion: 3
@@ -147,7 +148,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0017825961, y: -0.007906914}
+  m_Offset: {x: -0.16772228, y: -0.007906914}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -158,7 +159,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9970988, y: 1.0280881}
+  m_Size: {x: 0.6652194, y: 0.8098831}
   m_EdgeRadius: 0
 --- !u!50 &50755337072522676
 Rigidbody2D:

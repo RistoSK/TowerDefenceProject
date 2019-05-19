@@ -21,7 +21,7 @@ namespace Projectile
             }
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             transform.position += (Vector3.right * projectileData.speed * Time.deltaTime);
             transform.Rotate(0f, 0f, projectileData.rotationSpeed);

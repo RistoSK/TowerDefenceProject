@@ -13,7 +13,7 @@ namespace Enemies
         public Health EnemyHealth { private set; get; }
         public float CurrentSpeed { private set; get; }
 
-        void Start()
+        private void Start()
         {
             CurrentSpeed = enemyData.speed;
             MyAnimator = gameObject.GetComponent<Animator>();
@@ -34,12 +34,10 @@ namespace Enemies
             CurrentSpeed = speed;
         }
 
-        void OnTriggerEnter2D(Collider2D collider)
+        private void OnTriggerEnter2D(Collider2D collider)
         {
-            if (collider.GetComponent<Defender>() == null) { return; }
-            Debug.Log("Entering Collider");
-
             var collidedEnemyDefender = collider.GetComponent<Defender>();
+    
             EnemyHealth = collidedEnemyDefender.GetComponent<Health>();
 
             if (enemyData.type == EnemyType.Jump && collidedEnemyDefender.IsDefenderJumpable())
@@ -49,7 +47,7 @@ namespace Enemies
             }
             else if (enemyData.type == EnemyType.Ghost)
             {
-
+                Debug.Log("Ghost coming through");
             }
             else
             {
@@ -57,9 +55,12 @@ namespace Enemies
             }
         }
 
-        void OnTriggerExit2D(Collider2D collider)
+        private void OnTriggerExit2D(Collider2D collider)
         {
-            Debug.Log("Exiting Collider");
+            if (collider.GetComponent<Enemy>() == null)
+            {
+                return;
+            }
             _enemyStateMachine.ChangeState(new EnemyMoveState(), this, enemyData);
         }
     }
