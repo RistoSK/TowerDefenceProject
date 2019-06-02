@@ -23,7 +23,7 @@ namespace General
             SceneManager.LoadScene(0);
         }
 
-        public void PlayGame()
+        public void PlayTutorial()
         {
             SceneManager.LoadScene(1);
 
@@ -55,8 +55,29 @@ namespace General
 
         IEnumerator GameOverDelay()
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             SceneManager.LoadScene(3);
         }
+
+        public void PlayCampaing()
+        {
+            SceneManager.LoadScene(3);
+
+            if (_gameSession)
+            {
+                _gameSession.ResetGame();
+            }
+        }
+
+        public void PlayImpossibleMode()
+        {
+            SceneManager.LoadScene(4);
+
+            if (_gameSession)
+            {
+                _gameSession.ResetGame();
+            }
+        }
+
     }
 }

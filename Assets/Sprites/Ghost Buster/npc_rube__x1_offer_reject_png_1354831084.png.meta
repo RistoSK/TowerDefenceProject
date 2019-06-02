@@ -1,0 +1,3328 @@
+fileFormatVersion: 2
+guid: 6bad14d4206399d478affcd39f0d7578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6100245663837289908
+    second: npc_rube__x1_offer_reject_png_1354831084_0
+  - first:
+      213: -546126679680250753
+    second: npc_rube__x1_offer_reject_png_1354831084_1
+  - first:
+      213: -1666656641467738175
+    second: npc_rube__x1_offer_reject_png_1354831084_2
+  - first:
+      213: 4603826968997152995
+    second: npc_rube__x1_offer_reject_png_1354831084_3
+  - first:
+      213: 9032293214081171313
+    second: npc_rube__x1_offer_reject_png_1354831084_4
+  - first:
+      213: -9096916097637480842
+    second: npc_rube__x1_offer_reject_png_1354831084_5
+  - first:
+      213: 3069900937630204586
+    second: npc_rube__x1_offer_reject_png_1354831084_6
+  - first:
+      213: 8292158625046096630
+    second: npc_rube__x1_offer_reject_png_1354831084_7
+  - first:
+      213: -1394040472746145999
+    second: npc_rube__x1_offer_reject_png_1354831084_8
+  - first:
+      213: -4282031335371583599
+    second: npc_rube__x1_offer_reject_png_1354831084_9
+  - first:
+      213: -5882890023919221652
+    second: npc_rube__x1_offer_reject_png_1354831084_10
+  - first:
+      213: -2847531967544985244
+    second: npc_rube__x1_offer_reject_png_1354831084_11
+  - first:
+      213: 2432191593943119809
+    second: npc_rube__x1_offer_reject_png_1354831084_12
+  - first:
+      213: -3817702405909804378
+    second: npc_rube__x1_offer_reject_png_1354831084_13
+  - first:
+      213: 1118973855935719990
+    second: npc_rube__x1_offer_reject_png_1354831084_14
+  - first:
+      213: -8213394732235429165
+    second: npc_rube__x1_offer_reject_png_1354831084_15
+  - first:
+      213: 5449005955051387587
+    second: npc_rube__x1_offer_reject_png_1354831084_16
+  - first:
+      213: 7955658979191390602
+    second: npc_rube__x1_offer_reject_png_1354831084_17
+  - first:
+      213: -8262104497973699873
+    second: npc_rube__x1_offer_reject_png_1354831084_18
+  - first:
+      213: 2946816611644376960
+    second: npc_rube__x1_offer_reject_png_1354831084_19
+  - first:
+      213: 3771564786406122992
+    second: npc_rube__x1_offer_reject_png_1354831084_20
+  - first:
+      213: -4529720878355639418
+    second: npc_rube__x1_offer_reject_png_1354831084_21
+  - first:
+      213: -2603995853568459680
+    second: npc_rube__x1_offer_reject_png_1354831084_22
+  - first:
+      213: -243631541076033449
+    second: npc_rube__x1_offer_reject_png_1354831084_23
+  - first:
+      213: -8680757345092583917
+    second: npc_rube__x1_offer_reject_png_1354831084_24
+  - first:
+      213: 3580166748336511433
+    second: npc_rube__x1_offer_reject_png_1354831084_25
+  - first:
+      213: 1276902100546066382
+    second: npc_rube__x1_offer_reject_png_1354831084_26
+  - first:
+      213: 1508903023585978833
+    second: npc_rube__x1_offer_reject_png_1354831084_27
+  - first:
+      213: 2789791735082859938
+    second: npc_rube__x1_offer_reject_png_1354831084_28
+  - first:
+      213: -4626385149552566384
+    second: npc_rube__x1_offer_reject_png_1354831084_29
+  - first:
+      213: 136104692188250583
+    second: npc_rube__x1_offer_reject_png_1354831084_30
+  - first:
+      213: 4561821211580510693
+    second: npc_rube__x1_offer_reject_png_1354831084_31
+  - first:
+      213: 5090305125722913774
+    second: npc_rube__x1_offer_reject_png_1354831084_32
+  - first:
+      213: 8774010564323275937
+    second: npc_rube__x1_offer_reject_png_1354831084_33
+  - first:
+      213: 1543309328243972965
+    second: npc_rube__x1_offer_reject_png_1354831084_34
+  - first:
+      213: -1544845881206506056
+    second: npc_rube__x1_offer_reject_png_1354831084_35
+  - first:
+      213: -7359025975056204315
+    second: npc_rube__x1_offer_reject_png_1354831084_36
+  - first:
+      213: 2322096399431775337
+    second: npc_rube__x1_offer_reject_png_1354831084_37
+  - first:
+      213: 120936559896567142
+    second: npc_rube__x1_offer_reject_png_1354831084_38
+  - first:
+      213: 1613639337847055901
+    second: npc_rube__x1_offer_reject_png_1354831084_39
+  - first:
+      213: -5034713199582794144
+    second: npc_rube__x1_offer_reject_png_1354831084_40
+  - first:
+      213: -5357710786669430823
+    second: npc_rube__x1_offer_reject_png_1354831084_41
+  - first:
+      213: -4004751306404493492
+    second: npc_rube__x1_offer_reject_png_1354831084_42
+  - first:
+      213: -8019954307812858092
+    second: npc_rube__x1_offer_reject_png_1354831084_43
+  - first:
+      213: -6416343070985110121
+    second: npc_rube__x1_offer_reject_png_1354831084_44
+  - first:
+      213: -7826513716245354751
+    second: npc_rube__x1_offer_reject_png_1354831084_45
+  - first:
+      213: 9045958322976882836
+    second: npc_rube__x1_offer_reject_png_1354831084_46
+  - first:
+      213: -711356305499941548
+    second: npc_rube__x1_offer_reject_png_1354831084_47
+  - first:
+      213: -7079176851597626586
+    second: npc_rube__x1_offer_reject_png_1354831084_48
+  - first:
+      213: -3830206793223446231
+    second: npc_rube__x1_offer_reject_png_1354831084_49
+  - first:
+      213: 2040793572305433692
+    second: npc_rube__x1_offer_reject_png_1354831084_50
+  - first:
+      213: 514977550996795143
+    second: npc_rube__x1_offer_reject_png_1354831084_51
+  - first:
+      213: -3286320803843692936
+    second: npc_rube__x1_offer_reject_png_1354831084_52
+  - first:
+      213: 6101815251652655071
+    second: npc_rube__x1_offer_reject_png_1354831084_53
+  - first:
+      213: -3459328284705540952
+    second: npc_rube__x1_offer_reject_png_1354831084_54
+  - first:
+      213: 9104678363369715757
+    second: npc_rube__x1_offer_reject_png_1354831084_55
+  - first:
+      213: -2016388064997412962
+    second: npc_rube__x1_offer_reject_png_1354831084_56
+  - first:
+      213: 4763350094063995838
+    second: npc_rube__x1_offer_reject_png_1354831084_57
+  - first:
+      213: -496493545241734522
+    second: npc_rube__x1_offer_reject_png_1354831084_58
+  - first:
+      213: 6801699884245587467
+    second: npc_rube__x1_offer_reject_png_1354831084_59
+  - first:
+      213: 1199538871923637258
+    second: npc_rube__x1_offer_reject_png_1354831084_60
+  - first:
+      213: 3413805037621020687
+    second: npc_rube__x1_offer_reject_png_1354831084_61
+  - first:
+      213: -3369114378328496542
+    second: npc_rube__x1_offer_reject_png_1354831084_62
+  - first:
+      213: 5391165276680327937
+    second: npc_rube__x1_offer_reject_png_1354831084_63
+  - first:
+      213: -8157435238719572876
+    second: npc_rube__x1_offer_reject_png_1354831084_64
+  - first:
+      213: 2919098290402349775
+    second: npc_rube__x1_offer_reject_png_1354831084_65
+  - first:
+      213: 7128273451299836110
+    second: npc_rube__x1_offer_reject_png_1354831084_66
+  - first:
+      213: 2690620102578885567
+    second: npc_rube__x1_offer_reject_png_1354831084_67
+  - first:
+      213: 5796116615878712521
+    second: npc_rube__x1_offer_reject_png_1354831084_68
+  - first:
+      213: -8478543678078788208
+    second: npc_rube__x1_offer_reject_png_1354831084_69
+  - first:
+      213: -3908771258119235531
+    second: npc_rube__x1_offer_reject_png_1354831084_70
+  - first:
+      213: 7473305788433384370
+    second: npc_rube__x1_offer_reject_png_1354831084_71
+  - first:
+      213: 9038532194407845264
+    second: npc_rube__x1_offer_reject_png_1354831084_72
+  - first:
+      213: -6731484786492739028
+    second: npc_rube__x1_offer_reject_png_1354831084_73
+  - first:
+      213: 2513943445934844247
+    second: npc_rube__x1_offer_reject_png_1354831084_74
+  - first:
+      213: 8800678595567930708
+    second: npc_rube__x1_offer_reject_png_1354831084_75
+  - first:
+      213: -7146287894402255196
+    second: npc_rube__x1_offer_reject_png_1354831084_76
+  - first:
+      213: -8941746070812775888
+    second: npc_rube__x1_offer_reject_png_1354831084_77
+  - first:
+      213: -7455549984006551793
+    second: npc_rube__x1_offer_reject_png_1354831084_78
+  - first:
+      213: -5250379158608071645
+    second: npc_rube__x1_offer_reject_png_1354831084_79
+  - first:
+      213: -4104306234488965386
+    second: npc_rube__x1_offer_reject_png_1354831084_80
+  - first:
+      213: -1788535955472353550
+    second: npc_rube__x1_offer_reject_png_1354831084_81
+  - first:
+      213: 8066380873786173896
+    second: npc_rube__x1_offer_reject_png_1354831084_82
+  - first:
+      213: -8500622055638697267
+    second: npc_rube__x1_offer_reject_png_1354831084_83
+  - first:
+      213: -7001898288982685233
+    second: npc_rube__x1_offer_reject_png_1354831084_84
+  - first:
+      213: 2113321159505906119
+    second: npc_rube__x1_offer_reject_png_1354831084_85
+  - first:
+      213: -6368595138792258933
+    second: npc_rube__x1_offer_reject_png_1354831084_86
+  - first:
+      213: -4206194565285088706
+    second: npc_rube__x1_offer_reject_png_1354831084_87
+  - first:
+      213: 8265277999621028735
+    second: npc_rube__x1_offer_reject_png_1354831084_88
+  - first:
+      213: 3132331087620280830
+    second: npc_rube__x1_offer_reject_png_1354831084_89
+  - first:
+      213: -4829462108171508458
+    second: npc_rube__x1_offer_reject_png_1354831084_90
+  - first:
+      213: 2121893972205707886
+    second: npc_rube__x1_offer_reject_png_1354831084_91
+  - first:
+      213: 1490351737610958496
+    second: npc_rube__x1_offer_reject_png_1354831084_92
+  - first:
+      213: 7797825188376116359
+    second: npc_rube__x1_offer_reject_png_1354831084_93
+  - first:
+      213: -8164723956626360688
+    second: npc_rube__x1_offer_reject_png_1354831084_94
+  - first:
+      213: 5194938294312525595
+    second: npc_rube__x1_offer_reject_png_1354831084_95
+  - first:
+      213: -8056335204265277417
+    second: npc_rube__x1_offer_reject_png_1354831084_96
+  - first:
+      213: 6477382949616387931
+    second: npc_rube__x1_offer_reject_png_1354831084_97
+  - first:
+      213: 9185421285668159577
+    second: npc_rube__x1_offer_reject_png_1354831084_98
+  - first:
+      213: 5876986973207164348
+    second: npc_rube__x1_offer_reject_png_1354831084_99
+  - first:
+      213: 6693967845667832137
+    second: npc_rube__x1_offer_reject_png_1354831084_100
+  - first:
+      213: -3214326148372558024
+    second: npc_rube__x1_offer_reject_png_1354831084_101
+  - first:
+      213: 5835325316686192184
+    second: npc_rube__x1_offer_reject_png_1354831084_102
+  - first:
+      213: -165295433046904921
+    second: npc_rube__x1_offer_reject_png_1354831084_103
+  - first:
+      213: -6243097139263922278
+    second: npc_rube__x1_offer_reject_png_1354831084_104
+  - first:
+      213: 7512809816577521099
+    second: npc_rube__x1_offer_reject_png_1354831084_105
+  - first:
+      213: 4852331208444800896
+    second: npc_rube__x1_offer_reject_png_1354831084_106
+  - first:
+      213: -100253999748884884
+    second: npc_rube__x1_offer_reject_png_1354831084_107
+  - first:
+      213: 5805890935435764876
+    second: npc_rube__x1_offer_reject_png_1354831084_108
+  - first:
+      213: 3139463067138575461
+    second: npc_rube__x1_offer_reject_png_1354831084_109
+  - first:
+      213: 11322114157356688
+    second: npc_rube__x1_offer_reject_png_1354831084_110
+  - first:
+      213: -5258281853082167362
+    second: npc_rube__x1_offer_reject_png_1354831084_111
+  - first:
+      213: -6763446555740488410
+    second: npc_rube__x1_offer_reject_png_1354831084_112
+  - first:
+      213: -8699188606706297971
+    second: npc_rube__x1_offer_reject_png_1354831084_113
+  - first:
+      213: 4853564780698616981
+    second: npc_rube__x1_offer_reject_png_1354831084_114
+  - first:
+      213: 4040117455971550213
+    second: npc_rube__x1_offer_reject_png_1354831084_115
+  - first:
+      213: -9217134549892863388
+    second: npc_rube__x1_offer_reject_png_1354831084_116
+  - first:
+      213: 8417617103243408899
+    second: npc_rube__x1_offer_reject_png_1354831084_117
+  - first:
+      213: -5383546777899982055
+    second: npc_rube__x1_offer_reject_png_1354831084_118
+  - first:
+      213: 4806278685652655694
+    second: npc_rube__x1_offer_reject_png_1354831084_119
+  - first:
+      213: 1282625538328603709
+    second: npc_rube__x1_offer_reject_png_1354831084_120
+  - first:
+      213: 6581760203119577806
+    second: npc_rube__x1_offer_reject_png_1354831084_121
+  - first:
+      213: 2497523019198092186
+    second: npc_rube__x1_offer_reject_png_1354831084_122
+  - first:
+      213: 8925062871334368853
+    second: npc_rube__x1_offer_reject_png_1354831084_123
+  - first:
+      213: -4213388694683152137
+    second: npc_rube__x1_offer_reject_png_1354831084_124
+  - first:
+      213: 7428882358782155944
+    second: npc_rube__x1_offer_reject_png_1354831084_125
+  - first:
+      213: 7336096030926358459
+    second: npc_rube__x1_offer_reject_png_1354831084_126
+  - first:
+      213: -2250925247102655436
+    second: npc_rube__x1_offer_reject_png_1354831084_127
+  - first:
+      213: 1747533334320767739
+    second: npc_rube__x1_offer_reject_png_1354831084_128
+  - first:
+      213: -5280758332111885259
+    second: npc_rube__x1_offer_reject_png_1354831084_129
+  - first:
+      213: -4864846814339969590
+    second: npc_rube__x1_offer_reject_png_1354831084_130
+  - first:
+      213: 6359819389964556329
+    second: npc_rube__x1_offer_reject_png_1354831084_131
+  - first:
+      213: -7887553331881928191
+    second: npc_rube__x1_offer_reject_png_1354831084_132
+  - first:
+      213: 4514318273783738921
+    second: npc_rube__x1_offer_reject_png_1354831084_133
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d90197bf7723cb47bac80a51ac57fbe
+      internalID: -6100245663837289908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0810e283ae712946aed4d95e549aef4
+      internalID: -546126679680250753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11fbcc99c70a18498afbdfe201703a4
+      internalID: -1666656641467738175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0bcc13ede3e894eb90dc3eedb2e457
+      internalID: 4603826968997152995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109fcecadb49844593ef59afbb1abd7
+      internalID: 9032293214081171313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581d142003dc714bb8ed0839daae7de
+      internalID: -9096916097637480842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2d8b6bceeb6b544b63ca4f25636591
+      internalID: 3069900937630204586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb5e4c62e8858744ab39ae549dde400
+      internalID: 8292158625046096630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6738e94eb05224bb2d9ea134f38348
+      internalID: -1394040472746145999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adf59b55e02b0243a69be974857f190
+      internalID: -4282031335371583599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894fabe2591fb5d4bb20e3a77f27f79e
+      internalID: -5882890023919221652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b8939a6d7c0b448c184370fbb5d4c
+      internalID: -2847531967544985244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99b5f6f0eed4a84584b4d01246f9b62
+      internalID: 2432191593943119809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd23dba68817a7a469df9ef3e10479b8
+      internalID: -3817702405909804378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d19955ed7d4f5b4f955c789d48ca8fd
+      internalID: 1118973855935719990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_15
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb3db65f2baa1b418c92a3cec2dc557
+      internalID: -8213394732235429165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_16
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d66cf03bc807e40b7411889f44f6bf
+      internalID: 5449005955051387587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_17
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae75d7cf7c03de419126caf1b12a059
+      internalID: 7955658979191390602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592db5e814b9df34bb2816aca8c6ea31
+      internalID: -8262104497973699873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675256f6da9d3ee4caa781075390e64c
+      internalID: 2946816611644376960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a899a8e19562c6a44ba7313993c45c2b
+      internalID: 3771564786406122992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_21
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b96135ebb428b439e2b9b64ad415f1
+      internalID: -4529720878355639418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96acb423c32abd945a72ee36d8e35015
+      internalID: -2603995853568459680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ce4071e6691654eb50aac7e8877aa2
+      internalID: -243631541076033449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_24
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89353446c8bbe747a01858e321cc5f3
+      internalID: -8680757345092583917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_25
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4c109dcb6a5de4f92cc8ae7555e81c
+      internalID: 3580166748336511433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_26
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7535e2668715194a87efde48847c28d
+      internalID: 1276902100546066382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7466d054a6090e4da01a7705678b58b
+      internalID: 1508903023585978833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f1e2f8ba855d47a3870fdd73d6ed8
+      internalID: 2789791735082859938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38407cbacf6a6b84b89a3dd323a1df39
+      internalID: -4626385149552566384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457493bf3f1fab9448951ed419c61a5a
+      internalID: 136104692188250583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59baa38cff88f764e836b4407a2cbcd3
+      internalID: 4561821211580510693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee75372419bf30744ba8e639f37f241f
+      internalID: 5090305125722913774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c42a874e4adb284ca4c468df039b7e8
+      internalID: 8774010564323275937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_34
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6294f67411069ac498742a9e911ab939
+      internalID: 1543309328243972965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_35
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9a348ea68fc794da283bc04545cd99
+      internalID: -1544845881206506056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64a05577a0bbf54e9bf61cddd6d9423
+      internalID: -7359025975056204315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241da78dfa6126d4da7ab4cbce30ac8e
+      internalID: 2322096399431775337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc8ddcaaa41ab2479b4d50dcf099642
+      internalID: 120936559896567142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_39
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018f97b7c19557c4b9fff111fecda83e
+      internalID: 1613639337847055901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_40
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d59b3ec71d214fbd842aee2770e20
+      internalID: -5034713199582794144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_41
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bf53ff22d192c40b391c8624eb94c6
+      internalID: -5357710786669430823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_42
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c695f6b3e1f25094884617c4b5dd27a5
+      internalID: -4004751306404493492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_43
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c35dbff37d467f4aaebdab2d0e05af3
+      internalID: -8019954307812858092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_44
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b36f24196455e4aa0090b2e89a8ca4
+      internalID: -6416343070985110121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc51b5cf9f057a4b914975a81cb9b0d
+      internalID: -7826513716245354751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2a9224457147f419a3cf93e2800806
+      internalID: 9045958322976882836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_47
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ef7b7b9aae89c44bc24d8c6f31dddf
+      internalID: -711356305499941548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_48
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a06ce06f114464e907a8d82f63146c
+      internalID: -7079176851597626586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_49
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b724eb28afa677479f44cf19f5bde64
+      internalID: -3830206793223446231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_50
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fce4753b5f85964bacd40022631ab23
+      internalID: 2040793572305433692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_51
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068271e8c88dda94dbac00c9bab81f6c
+      internalID: 514977550996795143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_52
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f3f31d39ccfa4a8ff75e9baaf78f7
+      internalID: -3286320803843692936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_53
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373be66b782c74040813c4d19e3a1a40
+      internalID: 6101815251652655071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bcfb664116dcd4fa23b7ee430a315f
+      internalID: -3459328284705540952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_55
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1339b72339bd4e9c47a33b670f073
+      internalID: 9104678363369715757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_56
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195ab7a0f038e884a9b9c986c2422be9
+      internalID: -2016388064997412962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba027665546adb4d93a80c1e0d6cb44
+      internalID: 4763350094063995838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_58
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff3251d280de24fb8995667dd4ed46
+      internalID: -496493545241734522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_59
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870825fb5a4ae70409745b98427d3036
+      internalID: 6801699884245587467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_60
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c1cd5ea7ca04b419a85226cf07aa10
+      internalID: 1199538871923637258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_61
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e1a058541a3974795faad27267fc51
+      internalID: 3413805037621020687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_62
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c798487089e4c06448a60f351eafe3ff
+      internalID: -3369114378328496542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a367cf8dae56c44888dc69964ef32b
+      internalID: 5391165276680327937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49c9624e017584c8c5665abb9c7284
+      internalID: -8157435238719572876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_65
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c3b526b2eb62c468a09a686356854e
+      internalID: 2919098290402349775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_66
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24130af7884a09d42814155caeeb2fa9
+      internalID: 7128273451299836110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed897dfd5960ef479877525ef0781c7
+      internalID: 2690620102578885567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_68
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c8ae3e695c5f64ab9486fe3f02b476
+      internalID: 5796116615878712521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_69
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddde8154c3720e146ad85a2d863fddd8
+      internalID: -8478543678078788208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_70
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac092a13878374bace798c1c548b81
+      internalID: -3908771258119235531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_71
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae45f3f3fae9094284b8c7bb6d434b7
+      internalID: 7473305788433384370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436512ea8432de47ba2632291e6e4fc
+      internalID: 9038532194407845264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4eb5005c05c31498bac6bf13e05aa5
+      internalID: -6731484786492739028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_74
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621c792621500e840ae6bb17ad48736c
+      internalID: 2513943445934844247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_75
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1a2d6f68d421e4eab8d0bc6bd0f2ab
+      internalID: 8800678595567930708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f6fc69a3096d14ab7c181f7ba62fc2
+      internalID: -7146287894402255196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_77
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2fc89c32c0e25489ed48fec6863591
+      internalID: -8941746070812775888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_78
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a46c26063e1c41a213bcc7b431ddb
+      internalID: -7455549984006551793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_79
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ace753378cd55e48af255c08ae05132
+      internalID: -5250379158608071645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_80
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f1330091a5f1a49a0fe12badd9eee9
+      internalID: -4104306234488965386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36771580c247144469859964c0e7e33b
+      internalID: -1788535955472353550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee289767cc07d489a5e6ad0faba9a3
+      internalID: 8066380873786173896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_83
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ab2decaa8c28d47bec82afe9163b59
+      internalID: -8500622055638697267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_84
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea37c4dd261b04f4da68a22abbfbdad0
+      internalID: -7001898288982685233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_85
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9920bce99ba38243965487c4b2f8c93
+      internalID: 2113321159505906119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_86
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db00d71941d1d3439f508f68736b772
+      internalID: -6368595138792258933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_87
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5758a2d1a4365648a71e6548c2e1769
+      internalID: -4206194565285088706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_88
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a65b45060e41458eec083bc9f8f3c
+      internalID: 8265277999621028735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_89
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2839659fdbeba6a43abb9bbc47ef355a
+      internalID: 3132331087620280830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c8b7691f5e6f74da822993efbd39f6
+      internalID: -4829462108171508458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_91
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6009819a0e3f144facbf4357c5999d9
+      internalID: 2121893972205707886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_92
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a997418bc236b764493f5324aff1eea1
+      internalID: 1490351737610958496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_93
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372461f2b717fa045888bbc8d084690c
+      internalID: 7797825188376116359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_94
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67b8dca790c3ee4c9c685b2492c2b9d
+      internalID: -8164723956626360688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_95
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69444e6621ad5354f99689cb6e48fff3
+      internalID: 5194938294312525595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_96
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4728711cd61d194eb43f297446128a1
+      internalID: -8056335204265277417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_97
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791e453a6165e064b917339ff5834ef2
+      internalID: 6477382949616387931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_98
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f76358442237ab4a9de3260423e9aac
+      internalID: 9185421285668159577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ed479f98abc5f4683908d949a895b9
+      internalID: 5876986973207164348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_100
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5170404cec301c4c8000174fc716e48
+      internalID: 6693967845667832137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_101
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e17b01f6516045b88517a9d5b6f71
+      internalID: -3214326148372558024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_102
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8f8973c6d556345a1744b8365891da
+      internalID: 5835325316686192184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6087948f0fe95d34bab9b1ff5e5c3953
+      internalID: -165295433046904921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_104
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de64c0721b7df64faceae359c274444
+      internalID: -6243097139263922278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_105
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdb2ab2e90736646b09a6875e10cda4
+      internalID: 7512809816577521099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_106
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8b1b9f961a2fa438b6fa65a971f7cc
+      internalID: 4852331208444800896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_107
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0013c5f3dd86b4791b41a0ad60cc46
+      internalID: -100253999748884884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9ea1f79578a164ba890dbccfdad653
+      internalID: 5805890935435764876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_109
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47970cd5e866dc438975dc55b879141
+      internalID: 3139463067138575461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4dded44c2d00b488cbe66d4dad202e
+      internalID: 11322114157356688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_111
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a44a7a304df0f4192f98dd7ed9d4b1
+      internalID: -5258281853082167362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_112
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0062252191fe0bb40b18dbfe27a9f42d
+      internalID: -6763446555740488410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_113
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b4d31137f82443b8abbc92ab01bc4
+      internalID: -8699188606706297971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_114
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b294d2735f58489e7571d633891a9
+      internalID: 4853564780698616981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_115
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52cb1094dffcdb46866514049891ac8
+      internalID: 4040117455971550213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_116
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5593ca27c3d28348adb9883ba2583bd
+      internalID: -9217134549892863388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de893446ae0114240b019290eb637fb7
+      internalID: 8417617103243408899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_118
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a2c2055b3cf384c90e3ecde936bc16
+      internalID: -5383546777899982055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_119
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e230f8dabef46e42acf33c12dd9d837
+      internalID: 4806278685652655694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_120
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f68988d0b316249bc057cbf44004bf
+      internalID: 1282625538328603709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_121
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4ac8e09993854e8bb2b032a08e7dc
+      internalID: 6581760203119577806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_122
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a362645af6ae4754d98b034b5ca43e09
+      internalID: 2497523019198092186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_123
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c972f86e790f24d83181e88ec277ce
+      internalID: 8925062871334368853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_124
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e46b0e5449bd6418bf9ecc9ac05a0d
+      internalID: -4213388694683152137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_125
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715f1b56ec23aa41a725400b9e220a3
+      internalID: 7428882358782155944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7fafa446a9ada4aa1c4585392ba02e
+      internalID: 7336096030926358459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_127
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6327b4458f9a79f48ac3b41811b9784c
+      internalID: -2250925247102655436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_128
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4a15f2177fcf744b447617b2c7f0ad
+      internalID: 1747533334320767739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_129
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c21e575a39d2cc4ea901f221e2ba65b
+      internalID: -5280758332111885259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_130
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3f39ffbe5781f46bd13b49a467b4e5
+      internalID: -4864846814339969590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_131
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2284edb216b8ea44fad97d6ec2491f4b
+      internalID: 6359819389964556329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_132
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39ad186672cf174ca21c719fc17b2d6
+      internalID: -7887553331881928191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_rube__x1_offer_reject_png_1354831084_133
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6927be6430a36c43b570a0ef01c6302
+      internalID: 4514318273783738921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 125d7bdaa197b1c48ac0a0e8db8d5870
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

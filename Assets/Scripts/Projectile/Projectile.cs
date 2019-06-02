@@ -7,8 +7,6 @@ namespace Projectile
     public class Projectile : MonoBehaviour
     {
         [SerializeField] private ProjectileData projectileData;
-        [SerializeField] private bool bHitGhost;
-        [SerializeField] private bool bShouldFreeze;
 
         private Health _health;
         private Enemy _enemy;
@@ -32,13 +30,13 @@ namespace Projectile
             if (collider.GetComponent<Health>() == null && collider.GetComponent<Enemy>() == null) { return; }
 
             _health = collider.GetComponent<Health>();
-            _health.DealDamage(projectileData.damageAmount, bHitGhost);
+            _health.DealDamage(projectileData.damageAmount, projectileData.hitGhosts);
 
-            if (bShouldFreeze)
+            if (projectileData.freezeEnemies)
             {
                 _enemy = collider.GetComponent<Enemy>();
+                _enemy.FreezeEnemy(projectileData.freezeDuration);
 
-                StartCoroutine(FreezeEnemy(_enemy));
             }
 
             TriggerDeathVFX();
@@ -51,15 +49,6 @@ namespace Projectile
 
             GameObject deathVFXObject = Instantiate(projectileData.deathVFX, transform.position, transform.rotation);
             Destroy(deathVFXObject, 2f);
-        }
-
-        private IEnumerator FreezeEnemy(Enemy enemy)
-        {
-            enemy.SetMovementSpeed(enemy.CurrentSpeed / 2);
-            // TODO turn frozen
-            yield return new WaitForSeconds(3);
-            enemy.SetMovementSpeed(enemy.CurrentSpeed);
-            // TODO unfreeze
         }
     }
 }

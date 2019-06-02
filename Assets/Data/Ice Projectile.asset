@@ -16,3 +16,6 @@ MonoBehaviour:
   damageAmount: 1
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   rotationSpeed: 0
+  hitGhosts: 0
+  freezeEnemies: 1
+  freezeDuration: 2

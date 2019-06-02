@@ -42,7 +42,8 @@ public class Defender : MonoBehaviour
         {
             _hit = Physics2D.Raycast(transform.position, Vector2.right, 10f, LayerMask.GetMask("Enemy"));
 
-            if (!_hit.collider.isActiveAndEnabled)
+            //if (!_hit.collider.isActiveAndEnabled)
+            if (_hit.collider == null)
             {
                 return;
             }
