@@ -1,20 +1,19 @@
 ﻿using System.Collections;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace General
 {
-    public class LevelLoader : MonoBehaviour {
+    public static class LevelLoader
+    {
 
-        void Start()
-        {
-            StartCoroutine(LoadingScreenDelay());
-        }
+        public static int level;
 
-        IEnumerator LoadingScreenDelay()
+        public static void LoadLevel(int i)
         {
-            yield return new WaitForSeconds(3);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(8);
+            level = i;
         }
     }
 }

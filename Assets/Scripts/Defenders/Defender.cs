@@ -25,7 +25,6 @@ public class Defender : MonoBehaviour
         if (_anim == null)
         {
             Debug.Log("Animator is missing");
-            return;
         }
     }
 
@@ -59,21 +58,25 @@ public class Defender : MonoBehaviour
 
     private void ShootWithCoolDown()
     {
-        if (_remainingCooldown <= 0)
-        {
-            reloadBar.gameObject.SetActive(false);
-            if (Input.GetButtonDown("Fire1"))
-            {
-                Instantiate(defenderData.projectile, spawnPosition.position, transform.rotation);
-                _anim.Play("Attack");
-                _remainingCooldown = defenderData.spawnCooldown;
-            }
-        }
-        else
+        if (_remainingCooldown > 0)
         {
             reloadBar.gameObject.SetActive(true);
             _remainingCooldown -= Time.deltaTime;
             reloadBarTransform.localScale = new Vector3(_remainingCooldown / defenderData.spawnCooldown, 1);
+        }
+        else
+        {
+            reloadBar.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        if (_remainingCooldown <= 0)
+        {
+            Instantiate(defenderData.projectile, spawnPosition.position, transform.rotation);
+            _anim.Play("Attack");
+            _remainingCooldown = defenderData.spawnCooldown;
         }
     }
 

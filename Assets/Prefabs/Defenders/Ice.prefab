@@ -112,9 +112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defenderData: {fileID: 11400000, guid: 0062dd8595331244ca5dc3f5022f88e3, type: 2}
-  resourcePrefab: {fileID: 0}
   spawnPosition: {fileID: 5447831995714860806}
+  resourcePrefab: {fileID: 0}
   reloadBar: {fileID: 0}
+  reloadBarTransform: {fileID: 0}
 --- !u!50 &5447831996868276954
 Rigidbody2D:
   serializedVersion: 4
@@ -149,7 +150,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07118413, y: -0.058024406}
+  m_Offset: {x: 0.000027000904, y: 0.04508668}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -160,7 +161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4528961, y: 1.9392233}
+  m_Size: {x: 1.9984323, y: 2.1712232}
   m_EdgeRadius: 0
 --- !u!95 &5447831996868276949
 Animator:

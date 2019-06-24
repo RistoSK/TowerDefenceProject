@@ -119,4 +119,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aead3e6dfe8cfa4b88c366fdbfe1477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceData: {fileID: 11400000, guid: 5a1d7341fab436048847a283a6490ee4, type: 2}
+  _sprites:
+  - {fileID: 21300000, guid: 3de87f24c5a75454cb27a15bc4946a67, type: 3}
+  - {fileID: 21300000, guid: 297146f23024e3449b3feb41a1b3b96c, type: 3}
+  - {fileID: 21300000, guid: 3f77830278cffb649bb0a6001ee3005e, type: 3}
+  - {fileID: 21300000, guid: d8c47f1b989a1804fb5bedbcb6fe0d5f, type: 3}
+  - {fileID: 21300000, guid: 153bbc48086c0874facb170532cdd347, type: 3}
+  - {fileID: 21300000, guid: 6f4cdba128b8e0b4ca5fce442bdf936d, type: 3}
+  - {fileID: 21300000, guid: f9319c6cebad17146b2a2fac54709d70, type: 3}
+  - {fileID: 21300000, guid: 6853cdd7e03effa478c7ea007ea15e3a, type: 3}
+  _resourceData: {fileID: 11400000, guid: 5a1d7341fab436048847a283a6490ee4, type: 2}

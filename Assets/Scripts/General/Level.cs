@@ -8,24 +8,26 @@ namespace General
     {
         private GameSession _gameSession;
 
-        [SerializeField] private GameObject levelCompletedCanvas;
-        [SerializeField] private AudioClip youWonAudio;
+        [SerializeField] private GameObject _levelCompletedCanvas;
+        [SerializeField] private GameObject _loadingCanvas;
+        [SerializeField] private GameObject _gameOverCanvas;
+        [SerializeField] private AudioClip _youWonAudio;
+        [SerializeField] private int _currentLevel;
+        [SerializeField] private CharacterBoard _characterBoard;
 
         private void Awake()
         {
             _gameSession = FindObjectOfType<GameSession>();
-        
-            levelCompletedCanvas.SetActive(false);
-        }
 
-        public void StartMenu()
-        {
-            SceneManager.LoadScene(0);
+            if (_levelCompletedCanvas != null)
+            {
+                _levelCompletedCanvas.SetActive(false);
+            }
         }
 
         public void PlayTutorial()
         {
-            SceneManager.LoadScene(1);
+            StartCoroutine(LoadLevelWithDelay(0));
 
             if (_gameSession)
             {
@@ -35,12 +37,14 @@ namespace General
 
         public void WonGame()
         {
-            levelCompletedCanvas.SetActive(true);
+            _levelCompletedCanvas.SetActive(true);
 
             if (Camera.main != null)
             {
-                AudioSource.PlayClipAtPoint(youWonAudio, Camera.main.transform.position);
+                AudioSource.PlayClipAtPoint(_youWonAudio, Camera.main.transform.position);
             }
+
+            StartCoroutine(CharacterBoardDelay());
         }
 
         public void QuitGame()
@@ -56,12 +60,26 @@ namespace General
         IEnumerator GameOverDelay()
         {
             yield return new WaitForSeconds(1);
-            SceneManager.LoadScene(3);
+            AudioListener.pause = true;
+            _gameOverCanvas.SetActive(true);
         }
 
-        public void PlayCampaing()
+        IEnumerator CharacterBoardDelay()
         {
-            SceneManager.LoadScene(3);
+            yield return new WaitForSeconds(5);
+            _characterBoard.OpenCharacterBoard();
+        }
+
+        public void Retry()
+        {
+            AudioListener.pause = false;
+            _gameOverCanvas.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        public void PlayCampaign()
+        {
+            SceneManager.LoadScene(0);
 
             if (_gameSession)
             {
@@ -69,9 +87,9 @@ namespace General
             }
         }
 
-        public void PlayImpossibleMode()
+        public void PlayLastStage()
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(6);
 
             if (_gameSession)
             {
@@ -79,5 +97,22 @@ namespace General
             }
         }
 
+        public void PlayNextLevelCampaignMode()
+        {
+            _currentLevel++;
+            StartCoroutine(LoadLevelWithDelay(_currentLevel));
+
+            if (_gameSession)
+            {
+                _gameSession.ResetGame();
+            }
+        }
+
+        private IEnumerator LoadLevelWithDelay(int i)
+        {
+            _loadingCanvas.SetActive(true);
+            yield return new WaitForSeconds(3);
+            SceneManager.LoadScene(i);
+        }
     }
 }

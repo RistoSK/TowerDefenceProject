@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67fb394254bdde44a38bce39e02ddc4, type: 3}
   m_Name: Scarecrow
   m_EditorClassIdentifier: 
-  cost: 1
+  cost: 20
   spawnCooldown: 0
   projectile: {fileID: 0}
   isJumpable: 1

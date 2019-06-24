@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77fe58ae9d59b9846bca78dca59bd934, type: 3}
   m_Name: Ice Projectile
   m_EditorClassIdentifier: 
-  speed: 1
-  damageAmount: 1
+  speed: 0.8
+  damageAmount: 15
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   rotationSpeed: 0
   hitGhosts: 0

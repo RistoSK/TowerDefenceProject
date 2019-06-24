@@ -6,14 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Pre Tutorial.unity
+    guid: 85776ce78867039409c2ea196709e0c0
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: a75feb24a1d63214ab6d03fbe15a5a5a
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: a8b85840777a0754eaa785b51b10a269
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 6e340c8a8e9ad184dbf2a5de96864522
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: aabfea8015db0bf45a1209215412167d
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: d1f6b0b31d5b45f4c94d3804417f2ecb
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 55708502f471f8c4c849698340490bf0
   - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: 5b37e12a6dc86074eaab37bed02ae853
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 85776ce78867039409c2ea196709e0c0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2efcecc6288d12a4493f74df4c0dbc81

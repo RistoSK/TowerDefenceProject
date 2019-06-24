@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4689471263421939888}
   - component: {fileID: 8077845277423223002}
   - component: {fileID: 2620372652745593968}
+  - component: {fileID: 2074541332001993917}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -98,9 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defenderData: {fileID: 11400000, guid: 1aa50ed6a96b1c64bbac827db40ec58b, type: 2}
-  resourcePrefab: {fileID: 0}
   spawnPosition: {fileID: 8562010320024107707}
-  reloadBar: {fileID: 2672072414520821540}
+  resourcePrefab: {fileID: 0}
+  reloadBar: {fileID: 2672072414346569400}
+  reloadBarTransform: {fileID: 2672072414520821540}
 --- !u!95 &4689471263421939888
 Animator:
   serializedVersion: 3
@@ -154,7 +156,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000059604645, y: -0.060352564}
+  m_Offset: {x: -0.0049669147, y: 0.014109015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,8 +167,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35841262, y: 0.6963191}
+  m_Size: {x: 0.98423445, y: 0.99747443}
   m_EdgeRadius: 0
+--- !u!114 &2074541332001993917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2672072413850588476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11ce39ec6af3c441ab5e6d6074c329e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthPoints: 100
+  _isGhost: 0
 --- !u!1 &2672072414346569400
 GameObject:
   m_ObjectHideFlags: 0

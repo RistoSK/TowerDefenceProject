@@ -43,5 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ec279e1f004a842960e3101ee0b6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelCompletedCanvas: {fileID: 0}
-  youWonAudio: {fileID: 8300000, guid: 00911bcfbe858704a9675d067687ef80, type: 3}
+  _levelCompletedCanvas: {fileID: 0}
+  _loadingCanvas: {fileID: 0}
+  _youWonAudio: {fileID: 8300000, guid: 00911bcfbe858704a9675d067687ef80, type: 3}
+  _currentLevel: 0
+  _characterBoard: {fileID: 0}

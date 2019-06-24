@@ -47,7 +47,7 @@ namespace Enemies
                 _frozenTimer -= Time.deltaTime;
                 _renderer.material.color = _frozenColor;
 
-                if (CurrentSpeed != 0)
+                if (CurrentSpeed > 0)
                 {
                     CurrentSpeed = _frozenSpeed;
                 }
@@ -57,7 +57,7 @@ namespace Enemies
                     _bIsFrozen = false;
                     _renderer.material.color = _defaultColor;
 
-                    if (CurrentSpeed != 0)
+                    if (CurrentSpeed > 0)
                     {
                         CurrentSpeed = _enemyData.speed;
                     }
@@ -121,11 +121,11 @@ namespace Enemies
 
         private void OnTriggerExit2D(Collider2D collider)
         {
-            if (collider.GetComponent<Enemy>() == null)
+            if (collider.GetComponent<Defender>() != null)
             {
-                return;
+                _enemyStateMachine.ChangeState(new EnemyMoveState(), this, _enemyData);
             }
-            _enemyStateMachine.ChangeState(new EnemyMoveState(), this, _enemyData);
+            
         }
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67fb394254bdde44a38bce39e02ddc4, type: 3}
   m_Name: Robot
   m_EditorClassIdentifier: 
-  cost: 1
+  cost: 120
   spawnCooldown: 3
   projectile: {fileID: 2690579682212382434, guid: 0df2e2d82d091fe4fa099478185b86ba,
     type: 3}

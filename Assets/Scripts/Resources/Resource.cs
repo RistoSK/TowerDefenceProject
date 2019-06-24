@@ -4,18 +4,26 @@ namespace Resources
 {
     public class Resource : MonoBehaviour
     {
-        //[SerializeField] Sprite[] sprites;
-        [SerializeField] private ResourceData resourceData;
+        [SerializeField] Sprite[] _sprites;
+        [SerializeField] private ResourceData _resourceData;
 
         private int _resourcePoints;
         private float _resourceSpeed;
         private float _resourceLifeTime;
+
+        private SpriteRenderer _spriteRenderer;
+        private int _resourceSpriteAmount;
      
         private void Start()
         {
-            _resourcePoints = resourceData.points;
-            _resourceSpeed = resourceData.speed;
-            _resourceLifeTime = resourceData.lifeTime;
+            int resourceSpriteIndex = Random.Range(0, _sprites.Length);
+
+            _spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+            _spriteRenderer.sprite = _sprites[resourceSpriteIndex];
+            
+            _resourcePoints = _resourceData.points;
+            _resourceSpeed = _resourceData.speed;
+            _resourceLifeTime = _resourceData.lifeTime;
 
             Destroy(gameObject, _resourceLifeTime);
         }
@@ -30,6 +38,13 @@ namespace Resources
         {
             AddResources(_resourcePoints);
             Destroy(gameObject);
+        }
+
+        private void OnDestroy()
+        {
+            var sprite = gameObject.GetComponent<SpriteRenderer>();
+            sprite.sprite = _sprites[1];
+
         }
 
         private void AddResources(int amount)

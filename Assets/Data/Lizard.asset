@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739f81c9adf3e5f479ff23e070103227, type: 3}
   m_Name: Lizard
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 20
   attackCooldown: 1
   speed: 0.5
-  frozenSpeed: 0.5
+  frozenSpeed: 0.25
   type: 1

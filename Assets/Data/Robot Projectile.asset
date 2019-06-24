@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77fe58ae9d59b9846bca78dca59bd934, type: 3}
   m_Name: Robot Projectile
   m_EditorClassIdentifier: 
-  speed: 2
-  damageAmount: 1
+  speed: 3
+  damageAmount: 150
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   rotationSpeed: 10
+  hitGhosts: 0
+  freezeEnemies: 0
+  freezeDuration: 2

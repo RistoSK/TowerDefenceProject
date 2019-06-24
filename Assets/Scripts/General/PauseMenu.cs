@@ -48,12 +48,6 @@ public class PauseMenu : MonoBehaviour
         bGameIsPause = false;
     }
 
-    public void LoadMenu()
-    {
-        //SceneManager.LoadScene("scenetoload");
-
-    }
-
     public void QuitGame()
     {
         Application.Quit();
